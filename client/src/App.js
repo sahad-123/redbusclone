@@ -28,7 +28,7 @@ function App() {
 
 <image src="https://icons8.com/icon/25623/chair" width="100px"  height="100px"  />
 
-
+//new commit
 
 <Navbar/>
 
