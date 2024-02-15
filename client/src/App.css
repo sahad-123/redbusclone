@@ -546,10 +546,7 @@ background-color: #9fc2b4;
 .right-sided-buses{
 }
  body{
-
-
-    background-image: url();
-    background-repeat: no-repeats;
+    background-repeat: no-repeat;
     background-size:cover ;
 }
 .rotate-bottom-to-top {
