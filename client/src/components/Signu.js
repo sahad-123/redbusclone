@@ -60,7 +60,7 @@ const Postdata=async(e)=>{
  // const history=useHistory();
   e.preventDefault();
   const{name,email,phone,password,cpassword}=user;
-  const res= await fetch("/bus_user_register", {
+  const res= await fetch("https://main--redbusclonefrontend.netlify.app/bus_user_register", {
   method:"POST",
   headers:{
     "content-type":"application/json"
@@ -88,7 +88,7 @@ else{
   console.log("registration   sucessful");
 
 //history.push("/login");
-navigate('/login123', {replace: true});
+navigate('https://main--redbusclonefrontend.netlify.app/login123', {replace: true});
 
 
 
